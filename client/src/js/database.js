@@ -13,6 +13,8 @@ const initdb = async () =>
   });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
+
+
 export const putDb = async (content) => {
   console.log("Post to the database");
   // Create a connection to the database database and version we want to use.
@@ -39,7 +41,7 @@ export const getDb = async () => {
   const tx = jateDb.transaction('jate', 'readonly');
   // Open up the desired object store.
   const store = tx.objectStore('jate');
-
+  
   // Use the .getAll() method to get all data in the database.
   const request = store.getAll();
   // Get confirmation of the request.
@@ -47,5 +49,4 @@ export const getDb = async () => {
   console.log('result.value', result);
   return result;
 }
-
 initdb();
