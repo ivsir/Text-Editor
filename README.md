@@ -25,8 +25,8 @@ I created a text editor that can be used offline. Texts can be cached by service
 ## Usage
 
 <a href="https://still-meadow-30378.herokuapp.com/">This is the link to my Application</a>
-<image href="Images/Console.png">
-<image href="Images/Offline.png">
+<image src="Images/Console.png">
+<image src="Images/Offline.png">
 
 ## Credits
 Risvi Tareq
