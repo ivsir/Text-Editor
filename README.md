@@ -1,5 +1,5 @@
 
-# Social-Network-API
+# Text-Editor
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
